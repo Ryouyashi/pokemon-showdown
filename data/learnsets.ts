@@ -5987,7 +5987,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			skyattack: ["7T", "6T", "5T", "4T"],
 			sleeptalk: ["8M", "7M", "7V", "6M", "5T", "4M", "3T"],
 			sludgebomb: ["8M", "7M", "7S1", "6M", "5M", "4M", "4S0", "3M"],
-			smartstrike:["7T"],
+			smartstrike: ["7T"],
 			snatch: ["7T", "6T", "5T", "4M", "3M"],
 			snore: ["8M", "7T", "7V", "6T", "5T", "4T", "3T"],
 			steelwing: ["8M", "7M", "7V", "6M", "4M", "3M"],

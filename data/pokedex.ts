@@ -523,8 +523,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Ekans",
 		evoLevel: 22,
 		eggGroups: ["Field", "Dragon"],
-		otherFormes: ["Arbok-Mythos"],
-		formeOrder: ["Arbok", "Arbok-Mythos"],
 	},
 	pikachu: {
 		num: 25,
@@ -9178,7 +9176,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		otherFormes: ["Samurott-Mega"],
 		formeOrder: ["Samurott", "Samurott-Mega"],
 	},
-		
 	samurottmega: {
 		num: 503,
 		name: "Samurott-Mega",
@@ -11914,8 +11911,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Espurr",
 		evoLevel: 25,
 		eggGroups: ["Field"],
-		otherFormes: ["Meowstic-F","Meowstic-Mythos", "Meowstic-F-Mythos"],
-		formeOrder: ["Meowstic", "Meowstic-Mythos","Meowstic-F", "Meowstic-F-Mythos"],
+		otherFormes: ["Meowstic-F", "Meowstic-Mythos", "Meowstic-F-Mythos"],
+		formeOrder: ["Meowstic", "Meowstic-Mythos", "Meowstic-F", "Meowstic-F-Mythos"],
 	},
 	meowsticmythos: {
 		num: 678,
@@ -11933,8 +11930,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Espurr",
 		evoLevel: 25,
 		eggGroups: ["Field"],
-		otherFormes: ["Meowstic-F","Meowstic", "Meowstic-F-Mythos"],
-		formeOrder: ["Meowstic", "Meowstic-Mythos","Meowstic-F", "Meowstic-F-Mythos"],
+		otherFormes: ["Meowstic-F", "Meowstic", "Meowstic-F-Mythos"],
+		formeOrder: ["Meowstic", "Meowstic-Mythos", "Meowstic-F", "Meowstic-F-Mythos"],
 	},
 	meowsticf: {
 		num: 678,
@@ -11951,8 +11948,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Espurr",
 		evoLevel: 25,
 		eggGroups: ["Field"],
-		otherFormes: ["Meowstic","Meowstic-Mythos", "Meowstic-F-Mythos"],
-		formeOrder: ["Meowstic", "Meowstic-Mythos","Meowstic-F", "Meowstic-F-Mythos"],
+		otherFormes: ["Meowstic", "Meowstic-Mythos", "Meowstic-F-Mythos"],
+		formeOrder: ["Meowstic", "Meowstic-Mythos", "Meowstic-F", "Meowstic-F-Mythos"],
 	},
 	meowsticfmythos: {
 		num: 678,
