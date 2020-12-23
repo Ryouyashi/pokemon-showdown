@@ -2811,8 +2811,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 244,
 	},
 	purepower: {
-		onModifyAtkPriority: 5,
-		onModifyAtk(spa) {
+		onModifySpaPriority: 5,
+		onModifySpA(spa) {
 			return this.chainModify(2);
 		},
 		name: "Pure Power",
