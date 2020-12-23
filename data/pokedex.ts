@@ -6347,8 +6347,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 0.8,
 		color: "Red",
 		eggGroups: ["Fairy", "Amorphous"],
-		//requiredAbility: "Forecast",
-		//battleOnly: "Castform",
+		requiredAbility: "Forecast",
+		battleOnly: "Castform",
 	},
 	castformrainy: {
 		num: 351,
@@ -6362,8 +6362,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 0.8,
 		color: "Blue",
 		eggGroups: ["Fairy", "Amorphous"],
-		//requiredAbility: "Forecast",
-		//battleOnly: "Castform",
+		requiredAbility: "Forecast",
+		battleOnly: "Castform",
 	},
 	castformsnowy: {
 		num: 351,
@@ -6377,8 +6377,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 0.8,
 		color: "White",
 		eggGroups: ["Fairy", "Amorphous"],
-		//requiredAbility: "Forecast",
-		//battleOnly: "Castform",
+		requiredAbility: "Forecast",
+		battleOnly: "Castform",
 	},
 	castformsandy: {
 		num: 351,
@@ -6392,8 +6392,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 0.8,
 		color: "Brown",
 		eggGroups: ["Fairy", "Amorphous"],
-		//requiredAbility: "Forecast",
-		//battleOnly: "Castform",
+		requiredAbility: "Forecast",
+		battleOnly: "Castform",
 	},
 	kecleon: {
 		num: 352,
@@ -11986,8 +11986,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Espurr",
 		evoLevel: 25,
 		eggGroups: ["Field"],
-		otherFormes: ["Meowstic-F","Meowstic", "Meowstic-Mythos"],
-		formeOrder: ["Meowstic", "Meowstic-Mythos","Meowstic-F", "Meowstic-F-Mythos"],
+		otherFormes: ["Meowstic-F", "Meowstic", "Meowstic-Mythos"],
+		formeOrder: ["Meowstic", "Meowstic-Mythos", "Meowstic-F", "Meowstic-F-Mythos"],
 	},
 	honedge: {
 		num: 679,
@@ -14896,7 +14896,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 		otherFormes: ["Dubwool-Mythos"],
 		formeOrder: ["Dubwool", "Dubwool-Mythos"],
-	},	
+	},
 	dubwoolmythos: {
 		num: 832,
 		name: "Dubwool-Mythos",
