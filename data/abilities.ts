@@ -1093,6 +1093,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			case 'hail':
 				if (pokemon.species.id !== 'castformsnowy') forme = 'Castform-Snowy';
 				break;
+			case 'sandstorm':
+				if (pokemon.species.id !== 'castformsandy') forme = 'Castform-Sandy';
+				break;
 			default:
 				if (pokemon.species.id !== 'castform') forme = 'Castform';
 				break;
@@ -2809,7 +2812,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	purepower: {
 		onModifyAtkPriority: 5,
-		onModifyAtk(atk) {
+		onModifyAtk(spa) {
 			return this.chainModify(2);
 		},
 		name: "Pure Power",
