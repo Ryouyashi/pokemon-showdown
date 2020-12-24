@@ -2812,7 +2812,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	purepower: {
 		onModifySpaPriority: 5,
-		onModifySpA(spa) {
+		onModifySpA(atk, pokemon) {
 			return this.chainModify(2);
 		},
 		name: "Pure Power",
