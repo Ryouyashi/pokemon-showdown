@@ -2167,8 +2167,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Drowzee",
 		evoLevel: 26,
 		eggGroups: ["Human-Like"],
-		otherFormes: ["Hypno-Mythos"],
-		formeOrder: ["Hypno", "Hypno-Mythos"],
 	},
 	hypnomythos: {
 		num: 97,
@@ -6028,7 +6026,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		forme: "Mythos",
 		types: ["Psychic", "Dragon"],
 		baseStats: {hp: 80, atk: 45, def: 65, spa: 110, spd: 95, spe: 80},
-		abilities: {0: "Parental Bond", 1: "Sturdy", H: "Thick Fat"},
+		abilities: {0: "Parental Bond", 1: "Own Tempo", H: "Thick Fat"},
 		heightm: 0.9,
 		weightkg: 71.5,
 		color: "Purple",
