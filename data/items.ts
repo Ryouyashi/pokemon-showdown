@@ -7240,18 +7240,4 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
-	mythscizorite: {
-		name: "Mythscizorite",
-		spritenum: 577,
-		megaStone: "Scizor-Mythos-Mega",
-		megaEvolves: "Scizor-Mythos",
-		itemUser: ["Scizor-Mythos"],
-		onTakeItem(item, source) {
-			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
-			return true;
-		},
-		num: -9,
-		gen: 6,
-		isNonstandard: "Past",
-	},
 };
