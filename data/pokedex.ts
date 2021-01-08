@@ -4222,7 +4222,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug"],
 		otherFormes: ["Scizor", "Scizor-Mythos-Mega"],
 		formeOrder: ["Scizor", "Scizor-Mythos", "Scizor-Mythos-Mega"],
-	},	
+	},
 	scizormythosmega: {
 		num: 212,
 		name: "Scizor-Mythos-Mega",
