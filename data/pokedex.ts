@@ -2655,7 +2655,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		forme: "Mythos",
 		types: ["Normal", "Steel"],
 		baseStats: {hp: 70, atk: 115, def: 80, spa: 50, spd: 80, spe: 105},
-		abilities: {0: "Swarm", 1: "Technician", H: "Steadfast"},
+		abilities: {0: "Light Metal", 1: "Technician", H: "Battle Armor"},
 		heightm: 1.5,
 		weightkg: 56,
 		color: "Green",
