@@ -8256,6 +8256,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			fierywrath: ["7M"],
 			nastyplot: ["7M"],
 			disable: ["7M"],
+			moonlight: ["7M"],
 		},
 		eventData: [
 			{generation: 4, level: 50, abilities: ["intimidate"], moves: ["flareblitz", "thunderfang", "crunch", "extremespeed"], pokeball: "cherishball"},
@@ -72109,7 +72110,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			willowisp: ["7M"],
 			grudge: ["7M"],
 			hex: ["7M"],
-			Curse: ["7M"],
+			curse: ["7M"],
 			coaching: ["8M"],
 		},
 		eventData: [
