@@ -7282,7 +7282,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
-	Lunatite: {
+	lunatite: {
 		name: "Lunatite",
 		spritenum: 577,
 		megaStone: "Lunatone-Mega",
