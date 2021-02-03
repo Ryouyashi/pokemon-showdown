@@ -8256,6 +8256,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			fierywrath: ["7M"],
 			nastyplot: ["7M"],
 		},
+		eventData: [
+			{generation: 4, level: 50, abilities: ["intimidate"], moves: ["flareblitz", "thunderfang", "crunch", "extremespeed"], pokeball: "cherishball"},
+			{generation: 7, level: 50, abilities: ["intimidate"], moves: ["flareblitz", "extremespeed", "willowisp", "protect"], pokeball: "cherishball"},
+		],
+	},
 	poliwag: {
 		learnset: {
 			amnesia: ["7V"],
