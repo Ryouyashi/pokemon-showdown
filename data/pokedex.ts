@@ -6037,7 +6037,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	illumisemega: {
 		num: 314,
-		name: "Illumise",
+		name: "Illumise-Mega",
 		types: ["Bug"],
 		gender: "F",
 		baseStats: {hp: 65, atk: 47, def: 90, spa: 103, spd: 105, spe: 120},

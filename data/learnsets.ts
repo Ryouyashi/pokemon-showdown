@@ -8255,6 +8255,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			beatup: ["7M"],
 			fierywrath: ["7M"],
 			nastyplot: ["7M"],
+			disable: ["7M"],
 		},
 		eventData: [
 			{generation: 4, level: 50, abilities: ["intimidate"], moves: ["flareblitz", "thunderfang", "crunch", "extremespeed"], pokeball: "cherishball"},
