@@ -7240,4 +7240,60 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	volbite: {
+		name: "Volbite",
+		spritenum: 577,
+		megaStone: "Volbeat-Mega",
+		megaEvolves: "Volbeat",
+		itemUser: ["Volbeat"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -9,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	illumite: {
+		name: "Illumite",
+		spritenum: 577,
+		megaStone: "Illumise-Mega",
+		megaEvolves: "Illumise",
+		itemUser: ["Illumise"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -9,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	solrite: {
+		name: "Solrite",
+		spritenum: 577,
+		megaStone: "Solrock-Mega",
+		megaEvolves: "Solrock",
+		itemUser: ["Solrock"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -9,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	Lunatite: {
+		name: "Lunatite",
+		spritenum: 577,
+		megaStone: "Lunatone-Mega",
+		megaEvolves: "Lunatone",
+		itemUser: ["Lunatone"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -9,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 };
