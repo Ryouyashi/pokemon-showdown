@@ -22516,8 +22516,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			dragonbreath: ["7M"],
 			dragonpulse: ["7M"],
 			scaleshot: ["8M"],
-			shadowball: ["7M"],
-			psychic: ["7M"],
 			ragepowder: ["7M"],
 		},
 		eventData: [
