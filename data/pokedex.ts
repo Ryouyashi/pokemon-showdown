@@ -9359,7 +9359,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseSpecies: "Serperior",
 		forme: "Mega",
 		types: ["Grass", "Dragon"],
-		baseStats: {hp: 75, atk: 95, def: 105, spa: 115, spd: 105, spe: 133},
+		baseStats: {hp: 75, atk: 105, def: 105, spa: 115, spd: 105, spe: 123},
 		abilities: {0: "Natural Cure"},
 		heightm: 3.3,
 		weightkg: 63,
