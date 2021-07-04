@@ -6311,7 +6311,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Vibrava",
 		evoLevel: 45,
 		eggGroups: ["Bug", "Dragon"],
-		otherFormes: ["flygonmega"], ["flygonmythos"], ["flygonmythosmega"],
+		otherFormes: ["flygonmega", "flygonmythos", "flygonmythosmega"],
 	},
 	flygonmega: {
 		num: 330,
