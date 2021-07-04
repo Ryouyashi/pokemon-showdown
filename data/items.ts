@@ -7296,4 +7296,32 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	flygonite: {
+		name: "Flygonite",
+		spritenum: 575,
+		megaStone: "Flygon-Mega",
+		megaEvolves: "Flygon",
+		itemUser: ["Flygon"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -10,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	flygonitem: {
+		name: "Flygonite M",
+		spritenum: 575,
+		megaStone: "Flygon-Mythos-Mega",
+		megaEvolves: "Flygon-Mythos",
+		itemUser: ["Flygon-Mythos"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -11,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 };
